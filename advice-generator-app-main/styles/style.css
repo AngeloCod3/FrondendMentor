@@ -69,6 +69,10 @@ body {
   }
   .main-container .images {
     width: 320px;
+    right: 15px;
+  }
+  .main-container .images img {
+    width: 300px;
   }
 }
 
