@@ -5,7 +5,7 @@ try {
 .then(response => response.json())
 .then(data => {
     const number = document.getElementById('number-advice');
-    number.innerText = "Advice #" + data.slip.id;
+    number.innerText = "A D V I C E #" + data.slip.id;
 
     const p = document.getElementById('main-advice');
     p.innerText =  data.slip.advice;
